@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@100;300;400;500&family=Source+Sans+3:ital,wght@0,200;0,400;0,600;1,200&display=swap');
+
+*{
+    font-family: Lato;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --font-thin:100;
+    --font-light:300;
+    --font-regular:400;
+    --font-mediun:700;
+
+    font-size: 62.5%;/*62.5% == 10px*/
+}
+
+header{
+    width: min(96rem, 80%);
+    margin: 0 auto;
+    margin-top:3rem;
+    margin-bottom: 2rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header .search{
+    background-color: #eff0ef;
+    width: min(25rem, 90%);
+    border-radius: 1rem;
+    padding: .5rem 1rem ;
+}
+
+header .search input{
+    border: none;
+    width: 100%;
+    background-color: transparent;
+    padding:.5rem 0 ;
+    outline: none;
+}
+
+header .search input:focus .search{
+    background-color: red;
+}
+
+
+.logo h2{
+    font-weight: var(--font-mediun);
+    font-size: 2rem;
+}
+
+main.weather{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: min(96rem, 80%);
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: .9rem;
+
+}
+
+main .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+
+}
+
+.details h1{
+    font-size: 9rem;
+    font-weight: 400;
+    position: relative;
+    line-height: .779;
+}
+
+.details h1 sup{
+    font-size: 3rem;
+    position: absolute;
+    top: 0;
+    right: -2rem;
+    font-weight: var(--font-mediun);
+}
+.info h4{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.info p{
+    font-size: 1rem;
+}
+
+.cloud p{
+    font-size: 4rem;
+}
+.cloud span{
+    font-size: 1rem;
+    text-transform: capitalize;
+}
