@@ -1,1 +1,1 @@
-# imple weather aplication
+# Simple weather aplication
