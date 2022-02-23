@@ -69,7 +69,6 @@ main .details{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
     gap: 4rem;
 
 }
@@ -103,4 +102,15 @@ main .details{
 .cloud span{
     font-size: 1rem;
     text-transform: capitalize;
+}
+
+@media screen and (max-width: 480px){
+    form.search{
+        margin-top: 3rem;
+        width: 100%;
+    }
+    main .details{
+        flex-direction: column;
+        margin: 4rem auto;
+    }
 }
