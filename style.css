@@ -109,6 +109,9 @@ main .details{
         margin-top: 3rem;
         width: 100%;
     }
+    form.search input{
+        font-size: 2.1rem;
+    }
     main .details{
         flex-direction: column;
         margin: 4rem auto;
